@@ -75,6 +75,45 @@ ul.links.inline li{
   z-index: 2;
 }
 
+/*front page image header */
+
+.front-page-header{
+  background: url(../images/2720x1270photo.png);
+  color: #fff;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  position: relative;
+  height: 700px;
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.front-page-header .header-image{
+  background-image: url(../images/2720x1270photo.png);
+  width: 100%;
+  height: inherit;
+  background-size: cover;
+  background-position: 50% 50%;
+  position: fixed;
+  display: none;  /*display: block;*/
+  top: 0px;
+  border: 0;
+  z-index: -1;
+}
+
+.front-page-header:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*background: rgba(21, 22, 26, 0.88);*/
+  background: rgba(210, 169, 132, 0.2);
+}
+
+
 /*region header*/
 
 .site-branding{
