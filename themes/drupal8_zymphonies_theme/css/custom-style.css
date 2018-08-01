@@ -49,7 +49,6 @@ ul.links.inline li{
   margin-bottom: 20px;
   background-size: auto;
   position: relative;
-  height: 1000px;
 }
 
 .main-header:after{
@@ -59,7 +58,7 @@ ul.links.inline li{
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(21, 22, 26, 0.88);
+  /*background: rgba(21, 22, 26, 0.88);*/
 }
 
 .main-header nav{
@@ -75,7 +74,7 @@ ul.links.inline li{
   z-index: 2;
 }
 
-/*front page image header */
+/*front page image header. same as main-header but copy*/
 
 .front-page-header{
   background: url(../images/2720x1270photo.png);
@@ -110,10 +109,27 @@ ul.links.inline li{
   right: 0;
   bottom: 0;
   /*background: rgba(21, 22, 26, 0.88);*/
-  background: rgba(210, 169, 132, 0.2);
+  /*background: rgba(210, 169, 132, 0.2); lighter color*/
 }
 
 
+.front-page-header .nav{
+    background: none;
+    border: 0;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.front-page-header .region{
+  position: relative;
+  z-index: 2;
+}
+
+.front-page-header .navbar-default .navbar-toggle{
+  background: #fff;
+  margin-right: 0;
+}
 /*region header*/
 
 .site-branding{
